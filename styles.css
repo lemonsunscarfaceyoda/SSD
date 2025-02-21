@@ -7,7 +7,8 @@ body {
     background-color: #f4f4f4;
     background-image: url("https://preview.redd.it/cvvk9rekf1x51.png?auto=webp&s=2d887ddd5eb2b8107d503172c98405528b2dc976");
     background-attachment: fixed; /* Ensures the background image stays fixed when scrolling */
-    background-size: cover;
+    background-size: 50%;
+    background-repeat: repeat;
     color: #333;
 }
 
