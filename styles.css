@@ -1,4 +1,22 @@
 /* Global Styles */
+/* Global styles for Android devices */
+@media only screen and (max-width: 768px) and (min-width: 320px) {
+    /* Example: Change background color for Android devices */
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        background-image: url("https://preview.redd.it/cvvk9rekf1x51.png?auto=webp&s=2d887ddd5eb2b8107d503172c98405528b2dc976");
+        background-attachment: fixed; /* Ensures the background image stays fixed when scrolling */
+        background-size: 50%;
+        background-repeat: repeat;
+        color: #333;
+    }
+}
+
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -7,8 +25,7 @@ body {
     background-color: #f4f4f4;
     background-image: url("https://preview.redd.it/cvvk9rekf1x51.png?auto=webp&s=2d887ddd5eb2b8107d503172c98405528b2dc976");
     background-attachment: fixed; /* Ensures the background image stays fixed when scrolling */
-    background-size: 50%;
-    background-repeat: repeat;
+    background-size: cover;
     color: #333;
 }
 
