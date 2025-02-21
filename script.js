@@ -6,6 +6,13 @@ let lastScrollY = window.scrollY;
 let lastTimestamp = 0;
 let isScrolling = false;
 
+// Check if the user is on a mobile device (Android or iOS)
+if (/android/i.test(navigator.userAgent) || /iphone|ipod|ipad/i.test(navigator.userAgent)) {
+    // Add a class to the body element for mobile devices (Android or iOS)
+    document.body.classList.add('mobile');
+}
+
+
 // Function to change the background opacity based on scroll speed
 function changeOpacityOnScroll() {
     const currentScrollY = window.scrollY;
